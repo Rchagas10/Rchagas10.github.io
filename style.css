@@ -1,0 +1,143 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos da Seção de Apresentação */
+.apresentacao {
+    text-align: center;
+    padding: 50px;
+    background-color: #730cf8; /* Alterado de #4CAF50 para #141c3a */
+    color: white;
+}
+
+.perfil-imagem {
+    width: 250px; /* Aumentado de 150px para 200px */
+    height: 250px; /* Aumentado de 150px para 200px */
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Estilos dos Cards de Habilidades */
+#habilidades {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#habilidades h2 {
+    text-align: center;
+    color: #333;
+}
+
+.habilidades-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #730cf8; /* Alterado de #4CAF50 para #141c3a */
+}
+
+.card p {
+    color: #555;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Seção de Projetos Pessoais (Cards) */
+#projetos {
+    padding: 20px;
+    background-color: #e9e9e9;
+}
+
+#projetos h2 {
+    text-align: center;
+    color: #333;
+}
+
+.projetos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projeto-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.projeto-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.projeto-card h3 {
+    color: #333;
+}
+
+.projeto-card:hover {
+    transform: scale(1.05);
+}
+
+/* Links para o projeto */
+.projeto-card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.projeto-card a:hover {
+    color: #141c3a; /* Alterado de #4CAF50 para #141c3a */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #730cf8; /* Alterado de #4CAF50 para #141c3a */
+    color: white;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
